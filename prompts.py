@@ -1,4 +1,4 @@
-from llama_index import PromptTemplate
+from llama_index.core import PromptTemplate
 
 
 instruction_str = """\
@@ -23,4 +23,6 @@ new_prompt = PromptTemplate(
 )
 
 context = """Purpose: The primary role of this agent is to assist users by providing accurate 
-            information about world population statistics and details about a country. """
+            information about organic chemicals as well as general information about organic chemistry. 
+            Users are also allowed to save information gathered in a note.
+            """
